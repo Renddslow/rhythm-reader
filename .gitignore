@@ -1,0 +1,11 @@
+/node_modules
+yarn-error.log*
+
+dist/
+.idea
+public/main.js
+
+.netlify
+.env
+
+public/assets/*
