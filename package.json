@@ -11,12 +11,11 @@
     "start": "netlify dev",
     "build:js": "node build.js",
     "build:md": "node tools/parseMarkdown.js",
-    "build:data": "run-s build:md build:compile build:hyperlinks",
+    "build:data": "run-s build:md build:compile",
     "build:compile": "node tools/compileAssets.js",
-    "build:hyperlinks": "node tools/compileHyperlinks.js",
     "build": "run-p build:data build:js",
     "lint-staged": "lint-staged",
-    "postbuild": "cp data/final/psa1.json public/assets/psa1.json && cp asset-plan.json public/assets && cp hyperlinks.json public/assets"
+    "postbuild": "cp asset-plan.json public/assets"
   },
   "type": "module",
   "husky": {

@@ -31,7 +31,7 @@ const emailBody = (token, firstName, lastName, email) => `<!DOCTYPE html>
          -webkit-appearance: none;
          border: none;
          border-radius: 8px;
-         background: #7c39ec;
+         background: #53917E;
          font-weight: 600;
          display: block;
          max-width: max-content;

@@ -1,0 +1,391 @@
+[
+  {
+    "movement": 1,
+    "item": 0,
+    "src": "content/sacred-time.md",
+    "title": "Sacred Time",
+    "type": "markdown"
+  },
+  {
+    "movement": 1,
+    "item": 1,
+    "src": "https://www.youtube.com/watch?v=afVN-7vY0KA",
+    "type": "video",
+    "title": "Genesis 1 Visual Commentary",
+    "descriptionSrc": "content/genesis-commentary.md"
+  },
+  {
+    "movement": 1,
+    "item": 2,
+    "src": "content/time-lost.md",
+    "type": "markdown",
+    "title": "Restless"
+  },
+  {
+    "movement": 1,
+    "item": 3,
+    "type": "scripture",
+    "start": {
+      "chapter": "gen1",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "gen5",
+      "verse": 32
+    }
+  },
+  {
+    "movement": 1,
+    "item": 4,
+    "src": "content/battle-rest.md",
+    "type": "markdown",
+    "title": "THe Battle for Rest"
+  },
+  {
+    "movement": 1,
+    "item": 5,
+    "type": "scripture",
+    "start": {
+      "chapter": "exo1",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "exo5",
+      "verse": 23
+    }
+  },
+  {
+    "movement": 2,
+    "item": 0,
+    "src": "content/seasonal-rhythms.md",
+    "type": "markdown",
+    "title": "Seasonal Rhythms"
+  },
+  {
+    "movement": 2,
+    "item": 1,
+    "src": "https://www.youtube.com/watch?v=Sew1kBIe-W0",
+    "type": "video",
+    "title": "Reading Biblical \"Law\"",
+    "descriptionSrc": "content/reading-biblical-law.md"
+  },
+  {
+    "movement": 2,
+    "item": 2,
+    "type": "scripture",
+    "start": {
+      "chapter": "exo12",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "exo12",
+      "verse": 51
+    }
+  },
+  {
+    "movement": 2,
+    "item": 3,
+    "type": "scripture",
+    "start": {
+      "chapter": "lev23",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "lev23",
+      "verse": 44
+    }
+  },
+  {
+    "movement": 2,
+    "item": 4,
+    "src": "content/central-liturgy.md",
+    "type": "markdown",
+    "title": "The Liturgy at the Center"
+  },
+  {
+    "movement": 2,
+    "item": 5,
+    "type": "scripture",
+    "start": {
+      "chapter": "lev16",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "lev16",
+      "verse": 34
+    }
+  },
+  {
+    "movement": 2,
+    "item": 6,
+    "type": "scripture",
+    "start": {
+      "chapter": "matt26",
+      "verse": 18
+    },
+    "end": {
+      "chapter": "matt26",
+      "verse": 32
+    }
+  },
+  {
+    "movement": 3,
+    "item": 0,
+    "src": "content/sabbath.md",
+    "type": "markdown",
+    "title": "Sabbath"
+  },
+  {
+    "movement": 3,
+    "item": 1,
+    "src": "https://www.youtube.com/watch?v=PFTLvkB3JLM",
+    "type": "video",
+    "title": "Sabbath Rest",
+    "descriptionSrc": "content/sabbath-video.md"
+  },
+  {
+    "movement": 3,
+    "item": 2,
+    "type": "scripture",
+    "start": {
+      "chapter": "gen1",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "gen2",
+      "verse": 3
+    }
+  },
+  {
+    "movement": 3,
+    "item": 3,
+    "type": "scripture",
+    "start": {
+      "chapter": "exo20",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "exo20",
+      "verse": 26
+    }
+  },
+  {
+    "movement": 3,
+    "item": 4,
+    "type": "markdown",
+    "src": "content/lord-sabbath.md",
+    "title": "The Lord of the Sabbath"
+  },
+  {
+    "movement": 3,
+    "item": 5,
+    "type": "scripture",
+    "start": {
+      "chapter": "matt12",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "matt12",
+      "verse": 50
+    }
+  },
+  {
+    "movement": 3,
+    "item": 6,
+    "type": "scripture",
+    "start": {
+      "chapter": "matt28",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "matt28",
+      "verse": 20
+    }
+  },
+  {
+    "movement": 4,
+    "item": 0,
+    "src": "content/daily.md",
+    "type": "markdown",
+    "title": "Daily Rhythms in the Wilderness"
+  },
+  {
+    "movement": 4,
+    "item": 1,
+    "type": "scripture",
+    "start": {
+      "chapter": "lev1",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "lev3",
+      "verse": 17
+    }
+  },
+  {
+    "movement": 4,
+    "item": 2,
+    "type": "scripture",
+    "start": {
+      "chapter": "deu6",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "deu6",
+      "verse": 25
+    }
+  },
+  {
+    "movement": 4,
+    "item": 3,
+    "src": "content/lords-prayer.md",
+    "type": "markdown",
+    "title": "The Prayer Jesus Gave Us"
+  },
+  {
+    "movement": 4,
+    "item": 4,
+    "type": "scripture",
+    "start": {
+      "chapter": "mat6",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "mat6",
+      "verse": 34
+    }
+  },
+  {
+    "movement": 4,
+    "item": 5,
+    "src": "https://www.youtube.com/watch?v=LBr-blQxIm4",
+    "descriptionSrc": "content/priest.md",
+    "type": "video",
+    "title": "Jesus the Priest"
+  },
+  {
+    "movement": 4,
+    "item": 6,
+    "type": "scripture",
+    "start": {
+      "chapter": "luk5",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "luk5",
+      "verse": 39
+    }
+  },
+  {
+    "movement": 5,
+    "item": 0,
+    "title": "What is a Jubilee",
+    "type": "markdown",
+    "src": "content/jubilee.md"
+  },
+  {
+    "movement": 5,
+    "item": 1,
+    "type": "scripture",
+    "start": {
+      "chapter": "lev25",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "lev25",
+      "verse": 55
+    }
+  },
+  {
+    "movement": 5,
+    "item": 2,
+    "type": "scripture",
+    "start": {
+      "chapter": "isa61",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "isa61",
+      "verse": 11
+    }
+  },
+  {
+    "movement": 5,
+    "item": 3,
+    "type": "scripture",
+    "start": {
+      "chapter": "2ch36",
+      "verse": 15
+    },
+    "end": {
+      "chapter": "2ch36",
+      "verse": 23
+    }
+  },
+  {
+    "movement": 5,
+    "item": 4,
+    "type": "markdown",
+    "src": "content/land-rest.md",
+    "title": "Then the Land Had Rest"
+  },
+  {
+    "movement": 5,
+    "item": 5,
+    "type": "scripture",
+    "start": {
+      "chapter": "luk4",
+      "verse": 14
+    },
+    "end": {
+      "chapter": "luk4",
+      "verse": 30
+    }
+  },
+  {
+    "movement": 6,
+    "item": 0,
+    "src": "content/sustaining.md",
+    "type": "markdown",
+    "title": "Sustainable Long Obedience"
+  },
+  {
+    "movement": 6,
+    "item": 1,
+    "type": "scripture",
+    "start": {
+      "chapter": "psa1",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "psa1",
+      "verse": 6
+    }
+  },
+  {
+    "movement": 6,
+    "item": 2,
+    "type": "scripture",
+    "start": {
+      "chapter": "luk1",
+      "verse": 44
+    },
+    "end": {
+      "chapter": "luk1",
+      "verse": 55
+    }
+  },
+  {
+    "movement": 6,
+    "item": 3,
+    "type": "scripture",
+    "start": {
+      "chapter": "1th5",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "1th5",
+      "verse": 28
+    }
+  }
+]
