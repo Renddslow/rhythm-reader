@@ -47,7 +47,7 @@ const Intro = () => {
           <Markdown
             data={{
               title: 'Progress',
-              content: `<p>As you go you'll be rewarded with <strong>progress</strong> markers.</p><p>Progress markers indicate that you've read or otherwise engaged with one of the pages in the reader. Some pages have videos, some have a short explainer essay, and most have the words of Scripture (it is a Bible reader, after all). There are ___ pages in total, and you'll be able to track your progress in the header at the top of each page.</p><p>Remember, the goal isn't just to collect progress markers, but to actively read the Bible as a unified story that leads to Jesus in an unhurried and thoughtful way.</p><p>We hope that this will help you on the journey.</p>`,
+              content: `<p>As you go you'll be rewarded with <strong>progress</strong> markers.</p><p>Progress markers indicate that you've read or otherwise engaged with one of the pages in the reader. Some pages have videos, some have a short explainer essay, and most have the words of Scripture (it is a Bible reader, after all). There are 37x pages in total, and you'll be able to track your progress in the header at the top of each page.</p><p>Remember, the goal isn't just to collect progress markers, but to actively read the Bible as a unified story that leads to Jesus in an unhurried and thoughtful way.</p><p>We hope that this will help you on the journey.</p>`,
             }}
             titleSize="h2"
           />

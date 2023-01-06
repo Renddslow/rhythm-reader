@@ -20,7 +20,7 @@ const affirmation = (completions: number) => {
     return `You're really stickin' with it!`;
   }
 
-  if (completions < 22) {
+  if (completions < 37) {
     return `You're almost there!`;
   }
 
@@ -63,16 +63,14 @@ const Progress = () => {
         onClick={() => setShowTooltip(true)}
       >
         <BookmarkSimple weight="bold" size="16" />
-        <span>{completions.length}/22</span>
+        <span>{completions.length}/37</span>
       </ProgressWrapper>
       {showTooltip && (
         <ProgressTooltip>
           {completions.length > 0
             ? `You have read through ${
                 completions.length
-              } pages so far for the Rhythm reading challenge. ${affirmation(
-                completions.length,
-              )}`
+              } pages so far for the Rhythm reading challenge. ${affirmation(completions.length)}`
             : `You haven't read through any pages yet, complete this page to get your first!`}
         </ProgressTooltip>
       )}
