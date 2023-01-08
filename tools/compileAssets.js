@@ -82,6 +82,7 @@ const compileAssets = async () => {
       if (asset.type === 'scripture') {
         const [, startCh] = /(\d+)$/.exec(asset.start.chapter);
         const [, endCh] = /(\d+)$/.exec(asset.end.chapter);
+        const [, chTitle] = /((1|2)?[a-z]+)(\d+)$/.exec(asset.end.chapter);
         const chapters = Array(parseInt(endCh) - parseInt(startCh) + 1)
           .fill()
           .map((_, i) => parseInt(startCh) + i);
@@ -89,7 +90,7 @@ const compileAssets = async () => {
         asset.content = (
           await Promise.all(
             chapters.map(async (ch) =>
-              JSON.parse(await getStringFromFile(`data/final/${ch}.json`)),
+              JSON.parse(await getStringFromFile(`data/final/${chTitle}${ch}.json`)),
             ),
           )
         ).reduce((acc, ch) => [...acc, ...ch], []);

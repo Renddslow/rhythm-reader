@@ -25,6 +25,7 @@
     "movement": 1,
     "item": 3,
     "type": "scripture",
+    "book": "Genesis",
     "start": {
       "chapter": "gen1",
       "verse": 1
@@ -39,12 +40,13 @@
     "item": 4,
     "src": "content/battle-rest.md",
     "type": "markdown",
-    "title": "THe Battle for Rest"
+    "title": "The Battle for Rest"
   },
   {
     "movement": 1,
     "item": 5,
     "type": "scripture",
+    "book": "Exodus",
     "start": {
       "chapter": "exo1",
       "verse": 1
@@ -73,6 +75,7 @@
     "movement": 2,
     "item": 2,
     "type": "scripture",
+    "book": "Exodus",
     "start": {
       "chapter": "exo12",
       "verse": 1
@@ -86,6 +89,7 @@
     "movement": 2,
     "item": 3,
     "type": "scripture",
+    "book": "Leviticus",
     "start": {
       "chapter": "lev23",
       "verse": 1
@@ -106,6 +110,7 @@
     "movement": 2,
     "item": 5,
     "type": "scripture",
+    "book": "Leviticus",
     "start": {
       "chapter": "lev16",
       "verse": 1
@@ -119,6 +124,7 @@
     "movement": 2,
     "item": 6,
     "type": "scripture",
+    "book": "Matthew",
     "start": {
       "chapter": "matt26",
       "verse": 18
@@ -147,6 +153,7 @@
     "movement": 3,
     "item": 2,
     "type": "scripture",
+    "book": "Genesis",
     "start": {
       "chapter": "gen1",
       "verse": 1
@@ -160,6 +167,7 @@
     "movement": 3,
     "item": 3,
     "type": "scripture",
+    "book": "Leviticus",
     "start": {
       "chapter": "lev23",
       "verse": 1
@@ -180,6 +188,7 @@
     "movement": 3,
     "item": 5,
     "type": "scripture",
+    "book": "Matthew",
     "start": {
       "chapter": "matt12",
       "verse": 1
@@ -193,6 +202,7 @@
     "movement": 3,
     "item": 6,
     "type": "scripture",
+    "book": "Matthew",
     "start": {
       "chapter": "matt28",
       "verse": 1
@@ -213,6 +223,7 @@
     "movement": 4,
     "item": 1,
     "type": "scripture",
+    "book": "Leviticus",
     "start": {
       "chapter": "lev1",
       "verse": 1
@@ -226,6 +237,7 @@
     "movement": 4,
     "item": 2,
     "type": "scripture",
+    "book": "Deuteronomy",
     "start": {
       "chapter": "deu6",
       "verse": 1
@@ -246,6 +258,7 @@
     "movement": 4,
     "item": 4,
     "type": "scripture",
+    "book": "Matthew",
     "start": {
       "chapter": "mat6",
       "verse": 1
@@ -267,6 +280,7 @@
     "movement": 4,
     "item": 6,
     "type": "scripture",
+    "book": "Luke",
     "start": {
       "chapter": "luk5",
       "verse": 1
@@ -287,6 +301,7 @@
     "movement": 5,
     "item": 1,
     "type": "scripture",
+    "book": "Leviticus",
     "start": {
       "chapter": "lev25",
       "verse": 1
@@ -300,6 +315,7 @@
     "movement": 5,
     "item": 2,
     "type": "scripture",
+    "book": "Isaiah",
     "start": {
       "chapter": "isa61",
       "verse": 1
@@ -313,6 +329,7 @@
     "movement": 5,
     "item": 3,
     "type": "scripture",
+    "book": "2 Chronicles",
     "start": {
       "chapter": "2ch36",
       "verse": 15
@@ -333,6 +350,7 @@
     "movement": 5,
     "item": 5,
     "type": "scripture",
+    "book": "Luke",
     "start": {
       "chapter": "luk4",
       "verse": 14
@@ -353,6 +371,7 @@
     "movement": 6,
     "item": 1,
     "type": "scripture",
+    "book": "Psalm",
     "start": {
       "chapter": "psa1",
       "verse": 1
@@ -366,6 +385,7 @@
     "movement": 6,
     "item": 2,
     "type": "scripture",
+    "book": "Luke",
     "start": {
       "chapter": "luk1",
       "verse": 44
@@ -379,6 +399,7 @@
     "movement": 6,
     "item": 3,
     "type": "scripture",
+    "book": "1 Thessalonians",
     "start": {
       "chapter": "1th5",
       "verse": 1

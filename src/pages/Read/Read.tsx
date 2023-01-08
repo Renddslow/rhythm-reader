@@ -7,8 +7,9 @@ import { useAuthenticatedUser, useProgress } from '../../providers/Authenticatio
 import Movement from './Movement';
 import Item from './Item';
 import Text from '../../components/Text';
-import ProfileButton from './ProfileButton';
 import CompletionTag from '../../components/CompletionTag';
+import { getReference } from '../Items/Scripture/Scripture';
+import Progress from '../Progress';
 
 const Wrapper = styled.div`
   max-width: 600px;
@@ -78,7 +79,7 @@ const Read = () => {
     fetch('/assets/asset-plan.json')
       .then((r) => r.json())
       .then((r) => setAssets(r));
-  });
+  }, []);
 
   const getItems = (movement) => (item, idx) => {
     return (
@@ -88,7 +89,11 @@ const Read = () => {
         movement={movement}
         complete={isComplete(completions, movement, idx)}
         type={item.type}
-        title={item.title}
+        title={
+          item.type === 'scripture'
+            ? `${item.book} ${getReference(item.start)}-${getReference(item.end)}`
+            : item.title
+        }
       />
     );
   };
@@ -97,7 +102,7 @@ const Read = () => {
     <Wrapper>
       <Header>
         <h1>Rhythm Reader</h1>
-        <ProfileButton />
+        <Progress />
       </Header>
       <div>
         <IntroCard>

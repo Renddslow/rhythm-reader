@@ -6,25 +6,25 @@ import Poetry from './Poetry';
 import hash from '../../../utils/hash';
 import Paragraph from './Paragraph';
 
-type ChapterRef = `rev${number}`;
-type Ref = {
+export type ChapterRef = `${string}${number}`;
+export type Ref = {
   chapter: ChapterRef;
   verse: number;
 };
 
-const getChapter = (ref: ChapterRef) => {
+export const getChapter = (ref: ChapterRef) => {
   const [, ch] = /(\d+)$/.exec(ref);
   return ch;
 };
 
-const getReference = (ref: Ref) => {
+export const getReference = (ref: Ref) => {
   return `${getChapter(ref.chapter)}:${ref.verse}`;
 };
 
 const Scripture = ({ data, includeTitle = true }) => {
   const location = useLocation();
   const title = includeTitle
-    ? `Revelation ${getReference(data.start)}-${getReference(data.end)}`
+    ? `${data.book} ${getReference(data.start)}-${getReference(data.end)}`
     : '';
 
   useEffect(() => {

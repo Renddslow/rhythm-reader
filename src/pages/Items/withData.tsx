@@ -21,7 +21,7 @@ const withData =
           .then(([plan, hyperlinks]) => setData({ plan, hyperlinks }))
           .then(() => setLoading(false));
       } else {
-        fetch(`/assets/movement.${params.movement}.${params.item}.json`)
+        fetch(`/assets/movement.${params.week}.${params.item}.json`)
           .then((d) => d.json())
           .then((d) => setData(d))
           .then(() => setLoading(false));

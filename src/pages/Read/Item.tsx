@@ -55,7 +55,7 @@ const Item = ({ title, type, complete = false, isNext = false, idx, movement }: 
   const Icon = icons[type];
 
   return (
-    <Link to={`/read/movement/${movement}/${idx}`} style={{ textDecoration: 'none' }}>
+    <Link to={`/read/week/${movement}/${idx}`} style={{ textDecoration: 'none' }}>
       <ItemStyled complete={complete} isNext={isNext}>
         {complete ? <CheckCircle size={24} color="#47FFE7" /> : <Icon size={24} />}
         <p>{title}</p>

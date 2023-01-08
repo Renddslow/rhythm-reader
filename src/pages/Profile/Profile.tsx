@@ -1,7 +1,6 @@
 import React from 'react';
 import { Info } from 'phosphor-react';
 import styled from 'styled-components';
-import { default as ColorHash } from 'color-hash';
 
 import { useAuthenticatedUser, useProgress } from '../../providers/Authentication';
 import { FadeInWrapper } from '../Items';
