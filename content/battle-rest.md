@@ -1,0 +1,5 @@
+Just as Genesis begins as a story about rest, it ends with God's people, the small family of Jacob's descendants, living in a land of rest: Egypt.
+
+But then, everything changes. Suddenly a new Pharaoh arises, and he is described as an anti-rest, anti-creation, chaos beast. He sets to work a project of evil that is aimed at reversing the blessing of humanity from Genesis 1:27–28 to be fruitful and multiply. Instead, he enslaves the people of God, and forces them into heavy labor. So much for a land of rest.
+
+But the cries of Israel reach YHWH's ears, and he responds. What ensues in the 15 chapters of Exodus is a war between YHWH and Pharaoh over rest. We'll read through the first five chapters, and notice how this part ends, with Pharaoh increasing the labor of the people of God even further. Pay attention to the language of work pitted against the language of rest.

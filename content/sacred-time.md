@@ -1,0 +1,3 @@
+Our entire series and this reader is oriented around the concept of Sacred Time. We encounter this concept for the first time on page 1 of the Bible in Genesis 1:14. In it we discover that the sun, the moon, and all the heavenly bodies are oriented around communicating not just day and night and the change of seasons, but festivals also (the Hebrew word is _moedim_).
+
+What we'll come to learn is that this all intended to reflect God's vision for rhythms of work _and_ rest. Watch this BibleProject video to learn more.

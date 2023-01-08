@@ -2,9 +2,10 @@
   {
     "movement": 1,
     "item": 0,
-    "src": "content/sacred-time.md",
+    "descriptionSrc": "content/sacred-time.md",
+    "src": "https://www.youtube.com/watch?v=PFTLvkB3JLM",
     "title": "Sacred Time",
-    "type": "markdown"
+    "type": "video"
   },
   {
     "movement": 1,
