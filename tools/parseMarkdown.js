@@ -78,9 +78,9 @@ const mergeText = (content) => {
 };
 
 const getIndent = (line) => {
-  if (!line.startsWith('\\indent')) return 1;
-  const [, indent] = /^\\indent\((\d)\)/.exec(line);
-  return parseInt(indent, 10);
+  if (!line.startsWith('>')) return 1;
+  const [, indent] = /^(>+)/.exec(line);
+  return indent.trim().length;
 };
 
 const convertVerseToEndVerse = (verse) => {
@@ -137,7 +137,7 @@ const parseMarkdown = async (content, pathname) => {
           children: (() => {
             const cleanedLine = line
               .trim()
-              .replace(/^\\indent\((\d)\)/, '')
+              .replace(/^(>+) /, '')
               .trim();
             const tokens = tokenize(cleanedLine);
             const items = tokens.reduce((acc, token) => {

@@ -89,7 +89,7 @@ const compileAssets = async () => {
         asset.content = (
           await Promise.all(
             chapters.map(async (ch) =>
-              JSON.parse(await getStringFromFile(`data/final/rev${ch}.json`)),
+              JSON.parse(await getStringFromFile(`data/final/${ch}.json`)),
             ),
           )
         ).reduce((acc, ch) => [...acc, ...ch], []);

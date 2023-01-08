@@ -1,0 +1,17 @@
+---!p
+{1} Now a man from the house of Levi went and married a daughter of Levi. {2} And the woman conceived and gave birth to a son; and when she saw that he was beautiful, she hid him for three months. {3} But when she could no longer hide him, she got him a papyrus basket and covered it with tar and pitch. Then she put the child in it and set it among the reeds by the bank of the Nile. {4} And his sister stood at a distance to find out what would happen to him.
+
+---!p
+{5} Now the daughter of Pharaoh came down to bathe at the Nile, with her female attendants walking alongside the Nile; and she saw the basket among the reeds and sent her slave woman, and she brought it to her. {6} When she opened it, she saw the child, and behold, the boy was crying. And she had pity on him and said, “This is one of the Hebrews’ children.” {7} Then his sister said to Pharaoh’s daughter, “Shall I go and call a woman for you who is nursing from the Hebrew women, so that she may nurse the child for you?” {8} Pharaoh’s daughter said to her, “Go ahead.” So the girl went and called the child’s mother. {9} Then Pharaoh’s daughter said to her, “Take this child away and nurse him for me, and I will give you your wages.” So the woman took the child and nursed him. {10} And the child grew, and she brought him to Pharaoh’s daughter and he became her son. And she named him Moses, and said, “Because I drew him out of the water.”
+
+---!p
+{11} Now it came about in those days, when Moses had grown up, that he went out to his fellow Hebrews and looked at their hard labors; and he saw an Egyptian beating a Hebrew, one of his fellow Hebrews. {12} So he looked this way and that, and when he saw that there was no one around, he struck and killed the Egyptian, and hid his body in the sand. {13} Now he went out the next day, and behold, two Hebrews were fighting with each other; and he said to the offender, “Why are you striking your companion?” {14} But he said, “Who made you a ruler and a judge over us? Do you intend to kill me as you killed the Egyptian?” Then Moses was afraid and said, “Surely the matter has become known!”
+
+---!p
+{15} When Pharaoh heard about this matter, he tried to kill Moses. But Moses fled from the presence of Pharaoh and settled in the land of Midian, and he sat down by a well.
+
+---!p
+{16} Now the priest of Midian had seven daughters; and they came to draw water and filled the troughs to water their father’s flock. {17} Then the shepherds came and drove them away, but Moses stood up and helped them and watered their flock. {18} When they came to their father Reuel, he said, “Why have you come back so soon today?” {19} They said, “An Egyptian saved us from the shepherds, and what is more, he even drew water for us and watered the flock.” {20} So he said to his daughters, “Where is he then? Why is it that you have left the man behind? Invite him to have something to eat.” {21} And Moses was willing to live with the man. And he gave his daughter Zipporah to Moses. {22} Then she gave birth to a son, and he named him Gershom, for he said, “I have been a stranger in a foreign land.”
+
+---!p
+{23} Now it came about in the course of those many days that the king of Egypt died. And the sons of Israel groaned because of the bondage, and they cried out; and their cry for help because of their bondage ascended to God. {24} So God heard their groaning; and God remembered His covenant with Abraham, Isaac, and Jacob. {25} And God saw the sons of Israel, and God took notice of them.

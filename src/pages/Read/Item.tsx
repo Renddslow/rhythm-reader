@@ -11,9 +11,9 @@ import {
 import { Link } from 'react-router-dom';
 
 const icons = {
-  read: BookOpen,
+  scripture: BookOpen,
   video: YoutubeLogo,
-  essay: ArticleMedium,
+  markdown: ArticleMedium,
   bonus: Gift,
 };
 

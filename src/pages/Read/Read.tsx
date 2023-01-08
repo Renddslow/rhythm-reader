@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import isBefore from 'date-fns/isBefore';
@@ -67,11 +67,31 @@ const isComplete = (completions, movement: number, page: number) =>
 
 const Read = () => {
   const { user } = useAuthenticatedUser();
+  const [assets, setAssets] = useState([]);
   const { completions } = useProgress();
 
   const introComplete = isComplete(completions, 0, 0);
 
   const today = new Date();
+
+  useEffect(() => {
+    fetch('/assets/asset-plan.json')
+      .then((r) => r.json())
+      .then((r) => setAssets(r));
+  });
+
+  const getItems = (movement) => (item, idx) => {
+    return (
+      <Item
+        key={`${movement}-${idx}`}
+        idx={idx}
+        movement={movement}
+        complete={isComplete(completions, movement, idx)}
+        type={item.type}
+        title={item.title}
+      />
+    );
+  };
 
   return (
     <Wrapper>
@@ -88,273 +108,64 @@ const Read = () => {
           </div>
           <img src="https://dma9sdczpu5q0.cloudfront.net/media/explore-v2/Themes/(No%20Series)/Sabbath/sabbath_standard.png?q=65&fit=max&w=600" />
         </IntroCard>
-        <div className="movements">
-          <Movement
-            illustration="/sacred_rhythms.png"
-            title="Sacred Rhythms"
-            subtitle="In the beginning"
-            first
-            unlocks={new Date(2023, 0, 8)}
-          >
-            <Item
-              title="The Throne Room of Heaven"
-              type="essay"
-              idx={0}
-              movement={1}
-              complete={isComplete(completions, 1, 0)}
-            />
-            <Item
-              title="Apocalyptic Literature"
-              type="video"
-              idx={1}
-              movement={1}
-              complete={isComplete(completions, 1, 1)}
-            />
-            <Item
-              title="Revelation Overview, pt 1"
-              type="video"
-              idx={2}
-              movement={1}
-              complete={isComplete(completions, 1, 2)}
-            />
-            <Item
-              title="1:1-1:8"
-              type="read"
-              idx={3}
-              movement={1}
-              complete={isComplete(completions, 1, 3)}
-            />
-            <Item
-              title="1:9-3:22"
-              type="read"
-              idx={4}
-              movement={1}
-              complete={isComplete(completions, 1, 4)}
-            />
-          </Movement>
-          <Movement
-            illustration="/seasonal.png"
-            title="Seasonal Rhythms"
-            subtitle="I will sing to YHWH"
-            locked={isBefore(today, new Date(2023, 0, 15))}
-            unlocks={new Date(2023, 0, 15)}
-          >
-            <Item
-              title="The Judgement of Evil"
-              type="essay"
-              movement={2}
-              idx={0}
-              complete={isComplete(completions, 2, 0)}
-            />
-            <Item
-              title="4:1-5:14"
-              type="read"
-              movement={2}
-              idx={1}
-              complete={isComplete(completions, 2, 1)}
-            />
-            <Item
-              title="6:1-8:13"
-              type="read"
-              movement={2}
-              idx={2}
-              complete={isComplete(completions, 2, 2)}
-            />
-            <Item
-              title="9:1-11:19"
-              type="read"
-              movement={2}
-              idx={3}
-              complete={isComplete(completions, 2, 3)}
-            />
-            <Item
-              title="Revelation Overview, pt 2"
-              type="video"
-              movement={2}
-              idx={4}
-              complete={isComplete(completions, 2, 4)}
-            />
-            <Item
-              title="12:1-14:20"
-              type="read"
-              movement={2}
-              idx={5}
-              complete={isComplete(completions, 2, 5)}
-            />
-            <Item
-              title="15:1-16:21"
-              type="read"
-              movement={2}
-              idx={6}
-              complete={isComplete(completions, 2, 6)}
-            />
-          </Movement>
-          <Movement
-            illustration="/sabbath.png"
-            title="Weekly Rhythms"
-            subtitle="Remember the Sabbath"
-            locked={isBefore(today, new Date(2023, 0, 22))}
-            unlocks={new Date(2023, 0, 22)}
-          >
-            <Item
-              title="The Day of the Lord"
-              type="essay"
-              movement={3}
-              idx={0}
-              complete={isComplete(completions, 3, 0)}
-            />
-            <Item
-              title="Day of the Lord (video)"
-              type="video"
-              movement={3}
-              idx={1}
-              complete={isComplete(completions, 3, 1)}
-            />
-            <Item
-              title="17:1-19:10"
-              type="read"
-              movement={3}
-              idx={2}
-              complete={isComplete(completions, 3, 2)}
-            />
-            <Item
-              title="19:11-21:8"
-              type="read"
-              movement={3}
-              idx={3}
-              complete={isComplete(completions, 3, 3)}
-            />
-          </Movement>
-          <Movement
-            illustration="/daily.png"
-            title="Daily Rhythms"
-            subtitle="Seven times a day I praise you"
-            locked={isBefore(today, new Date(2023, 0, 29))}
-            unlocks={new Date(2023, 0, 29)}
-          >
-            <Item
-              title="The Resurrection"
-              type="essay"
-              movement={4}
-              idx={0}
-              complete={isComplete(completions, 4, 0)}
-            />
-            <Item
-              title="21:9-22:9"
-              type="read"
-              movement={4}
-              idx={1}
-              complete={isComplete(completions, 4, 1)}
-            />
-            <Item
-              title="Heaven and Earth"
-              type="video"
-              movement={4}
-              idx={2}
-              complete={isComplete(completions, 4, 2)}
-            />
-            <Item
-              title="22:10-22:21"
-              type="read"
-              movement={4}
-              idx={3}
-              complete={isComplete(completions, 4, 3)}
-            />
-            <Item
-              title="Eternal Life"
-              type="video"
-              movement={4}
-              idx={4}
-              complete={isComplete(completions, 4, 4)}
-            />
-          </Movement>
-          <Movement
-            illustration="/jubilee.png"
-            title="Intermittent Rhythms"
-            subtitle="The Spirit of YHWH is upon me"
-            locked={isBefore(today, new Date(2023, 1, 5))}
-            unlocks={new Date(2023, 1, 5)}
-          >
-            <Item
-              title="The Resurrection"
-              type="essay"
-              movement={4}
-              idx={0}
-              complete={isComplete(completions, 4, 0)}
-            />
-            <Item
-              title="21:9-22:9"
-              type="read"
-              movement={4}
-              idx={1}
-              complete={isComplete(completions, 4, 1)}
-            />
-            <Item
-              title="Heaven and Earth"
-              type="video"
-              movement={4}
-              idx={2}
-              complete={isComplete(completions, 4, 2)}
-            />
-            <Item
-              title="22:10-22:21"
-              type="read"
-              movement={4}
-              idx={3}
-              complete={isComplete(completions, 4, 3)}
-            />
-            <Item
-              title="Eternal Life"
-              type="video"
-              movement={4}
-              idx={4}
-              complete={isComplete(completions, 4, 4)}
-            />
-          </Movement>
-          <Movement
-            illustration="/exiles.png"
-            title="Maintaining Rhythms"
-            subtitle="Be Awake, Be Sober"
-            locked={isBefore(today, new Date(2023, 1, 12))}
-            unlocks={new Date(2023, 1, 12)}
-          >
-            <Item
-              title="The Resurrection"
-              type="essay"
-              movement={4}
-              idx={0}
-              complete={isComplete(completions, 4, 0)}
-            />
-            <Item
-              title="21:9-22:9"
-              type="read"
-              movement={4}
-              idx={1}
-              complete={isComplete(completions, 4, 1)}
-            />
-            <Item
-              title="Heaven and Earth"
-              type="video"
-              movement={4}
-              idx={2}
-              complete={isComplete(completions, 4, 2)}
-            />
-            <Item
-              title="22:10-22:21"
-              type="read"
-              movement={4}
-              idx={3}
-              complete={isComplete(completions, 4, 3)}
-            />
-            <Item
-              title="Eternal Life"
-              type="video"
-              movement={4}
-              idx={4}
-              complete={isComplete(completions, 4, 4)}
-            />
-          </Movement>
-        </div>
+        {assets.length && (
+          <div className="movements">
+            <Movement
+              illustration="/sacred_rhythms.png"
+              title="Sacred Rhythms"
+              subtitle="In the beginning"
+              first
+              unlocks={new Date(2023, 0, 8)}
+            >
+              {assets.filter((a) => a.movement === 1).map(getItems(1))}
+            </Movement>
+            <Movement
+              illustration="/seasonal.png"
+              title="Seasonal Rhythms"
+              subtitle="I will sing to YHWH"
+              locked={isBefore(today, new Date(2023, 0, 15))}
+              unlocks={new Date(2023, 0, 15)}
+            >
+              {assets.filter((a) => a.movement === 2).map(getItems(2))}
+            </Movement>
+            <Movement
+              illustration="/sabbath.png"
+              title="Weekly Rhythms"
+              subtitle="Remember the Sabbath"
+              locked={isBefore(today, new Date(2023, 0, 22))}
+              unlocks={new Date(2023, 0, 22)}
+            >
+              {assets.filter((a) => a.movement === 3).map(getItems(3))}
+            </Movement>
+            <Movement
+              illustration="/daily.png"
+              title="Daily Rhythms"
+              subtitle="Seven times a day I praise you"
+              locked={isBefore(today, new Date(2023, 0, 29))}
+              unlocks={new Date(2023, 0, 29)}
+            >
+              {assets.filter((a) => a.movement === 4).map(getItems(4))}
+            </Movement>
+            <Movement
+              illustration="/jubilee.png"
+              title="Intermittent Rhythms"
+              subtitle="The Spirit of YHWH is upon me"
+              locked={isBefore(today, new Date(2023, 1, 5))}
+              unlocks={new Date(2023, 1, 5)}
+            >
+              {assets.filter((a) => a.movement === 5).map(getItems(5))}
+            </Movement>
+            <Movement
+              illustration="/exiles.png"
+              title="Maintaining Rhythms"
+              subtitle="Be Awake, Be Sober"
+              locked={isBefore(today, new Date(2023, 1, 12))}
+              unlocks={new Date(2023, 1, 12)}
+            >
+              {assets.filter((a) => a.movement === 6).map(getItems(6))}
+            </Movement>
+          </div>
+        )}
       </div>
     </Wrapper>
   );

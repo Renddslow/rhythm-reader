@@ -161,12 +161,12 @@
     "item": 3,
     "type": "scripture",
     "start": {
-      "chapter": "exo20",
+      "chapter": "lev23",
       "verse": 1
     },
     "end": {
-      "chapter": "exo20",
-      "verse": 26
+      "chapter": "lev23",
+      "verse": 44
     }
   },
   {
