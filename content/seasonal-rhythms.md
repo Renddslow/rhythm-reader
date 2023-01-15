@@ -1,0 +1,3 @@
+The sacred rhythm of the cosmos is one that is in tension between work and rest. It acknowledges that not all time is uniquely sacred or worthy of a feast or festival. But when a moment in time is worth remembering, it is as if time itself stops. We are suddenly transported to a cathedral in time, where heaven and earth collide, often for only one day, perhaps only in the hour that we might observe it.
+
+Throughout this week's readings, we'll encounter the rhythms which God designed for his people to practice seasonally. They were moments in time which rehearse the deliverance which God continuously brings on behalf of his people.

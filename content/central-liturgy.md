@@ -1,0 +1,5 @@
+The _Torah_ comprise the first five books of the Bible. If we count them from the outside books inwards, we would find the book of Leviticus at the center.
+
+At the literary center of the book of Leviticus are a set of instructions, rationale, and practices around one particular event: the day of atonement (Lev 16). Often in Hebrew literature, when there is a distinct center, it tends to be the central idea—even the climax—of a particular literary unit. In this case, Leviticus 16 serves to show what this whole project of _Torah_ has been about. It's about the forgiveness of sin and the reconciliation of God and humanity and of heaven and earth. 
+
+In a similar fashion, we see another atonement in the Matthew reading this week. Jesus' atoning death would become the central narrative and focus of the entire Bible.
