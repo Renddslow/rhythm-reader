@@ -71,7 +71,7 @@ const AppFooter = () => {
           page: 0,
         }
       : {
-          movement: parseInt(params.movement, 10),
+          movement: parseInt(params.week, 10),
           page: parseInt(params.item, 10),
         };
 
@@ -93,23 +93,23 @@ const AppFooter = () => {
       {!window.location.pathname.includes('intro') ? (
         <Row>
           {parseInt(params.item) !== 0 ? (
-            <LinkButton to={`/read/week/${params.movement}/${parseInt(params.item) - 1}`}>
+            <LinkButton to={`/read/week/${params.week}/${parseInt(params.item) - 1}`}>
               <CaretLeft weight="bold" size={18} />
             </LinkButton>
           ) : (
             <div />
           )}
           {/* TODO: Mark complete if not already completed otherwise, next page */}
-          {MOVEMENT_MAX[parseInt(params.movement)] !== parseInt(params.item) ? (
+          {MOVEMENT_MAX[parseInt(params.week)] !== parseInt(params.item) ? (
             <LinkButton
-              to={`/read/week/${params.movement}/${parseInt(params.item) + 1}`}
+              to={`/read/week/${params.week}/${parseInt(params.item) + 1}`}
               onClick={handlePageCompletion}
             >
               Next Page
             </LinkButton>
           ) : (
             <LinkButton as="button" onClick={completeAndRoute}>
-              Complete {parseInt(params.movement) < 4 ? `Week ${params.movement}` : `the Last Week`}
+              Complete {parseInt(params.week) < 4 ? `Week ${params.week}` : `the Last Week`}
             </LinkButton>
           )}
         </Row>
@@ -124,7 +124,7 @@ const AppFooter = () => {
                     page: 0,
                   })
                 : isComplete(completions, {
-                    movement: parseInt(params.movement, 10),
+                    movement: parseInt(params.week, 10),
                     page: parseInt(params.item, 10),
                   })
             )
