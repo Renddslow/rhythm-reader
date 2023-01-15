@@ -26,7 +26,7 @@
 {25} Now Methuselah lived 187 years, and fathered Lamech. {26} Then Methuselah lived 782 years after he fathered Lamech, and he fathered other sons and daughters. {27} So all the days of Methuselah were 969 years, and he died.
 
 ---!p
-{28} Now Lamech lived 182 years, and fathered a son. {29} And he named him Noah, saying, “This one will give us comfort from our work and from the hard labor of our hands caused by the ground which the Lord has cursed.” {30} Then Lamech lived 595 years after he fathered Noah, and he fathered other sons and daughters. {31} So all the days of Lamech were 777 years, and he died.
+{28} Now Lamech lived 182 years, and fathered a son. {29} And he named him Noah, saying, “This one will give us comfort from our work and from the hard labor of our hands caused by the ground which YHWH has cursed.” {30} Then Lamech lived 595 years after he fathered Noah, and he fathered other sons and daughters. {31} So all the days of Lamech were 777 years, and he died.
 
 ---!p
 {32} Now after Noah was five hundred years old, Noah fathered Shem, Ham, and Japheth.
