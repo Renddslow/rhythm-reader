@@ -1,0 +1,1 @@
+Over the course of Israel's history, its relationship with the Sabbath became strange. Sometimes they would go through cycles of ignoring it or begrudgingly keeping it. By the time of Jesus, some 

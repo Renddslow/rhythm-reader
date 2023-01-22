@@ -1,0 +1,1 @@
+We've watched it once already, but it bears watching again. In this video from BibleProject we see the theme of the Sabbath unfold over the course of the Bible. Now that we're nearly half-way through this series, it's worth reminding ourselves what we're meditating on.
