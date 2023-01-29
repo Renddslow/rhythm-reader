@@ -2,4 +2,6 @@ God wanted to be with his people in the wilderness. That's why he had them set u
 
 Over the course of our readings, we've seen interactions with this space on a seasonal and weekly cycle. But in addition to those rhythms, was a daily rhythm of sacrifice. Every day, the priests would offer up sacrifices for the unintentional sins of the people of God and for their purification.
 
-It's easy to think that this would be daunting, a daily ritual. But consider as you read, amidst the blood and the bleating of animals, God is present with his people. That's what's at the center of Leviticus and what's at the center of the Torah: God _with_ Israel.  
+In addition, the people of Israel were meant to pray a simple prayer, often called the _Shema_ every morning and night. The prayer was a reminder that YHWH was their God: "_Shema Yisrael, YHWH Eloheinu, YHWH echad._ Hear O Israel, YHWH your God, YHWH alone."
+
+It's easy to think that this would all be daunting, a daily ritual. But consider as you read, amidst the blood, the bleating of animals, and a chanted Hebrew prayer, God is present with his people. That's what's at the center of Leviticus, that's what's at the center of the _Shema_, and it's the thing at the center of the Torah: God _with_ Israel.  
