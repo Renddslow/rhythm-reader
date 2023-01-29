@@ -1,0 +1,7 @@
+We're going to take a quick break from priests and tabernacles to visit with Jesus in the middle of his sermon on the mount. In Matthew 5–7, Jesus goes up on a mountain to give people a new set of commandments. This is super cool, because it lines up with a pattern the Gospel of Matthew has been developing for the whole book up to this point: Jesus is like a new Moses.
+
+This should make us pause. Jesus is like a new Moses. And we've just spent a good bit of time reading in the Torah, the books that are largely about the things God did through Moses. And at the center of the Torah is this notion that God wants to be with his people _daily_.
+
+So then at the center of Jesus' most famous teaching, he gives his people a prayer. In it, we pray "may your will be done, on earth as it is in heaven." In that line, we're praying for not only the restoration of heaven and earth, but that the space that we occupy right now, would look like God's space. That God would be _with_ us. Then we pray, "give us this day our _daily_ bread." We pray that this provision would be a daily provision. It's not like we go to the gas station and fill up on God for the week. We ask that we can daily experience his presence, that is, one day at a time.
+
+Meditate on this prayer several times. A lifetime of consideration will barely scratch the surface of the depths of meaning Jesus wove into the prayer he gave us—his people.

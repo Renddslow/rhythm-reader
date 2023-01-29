@@ -292,6 +292,20 @@
     }
   },
   {
+    "movement": 4,
+    "item": 7,
+    "type": "scripture",
+    "book": "Hebrews",
+    "start": {
+      "chapter": "heb10",
+      "verse": 1
+    },
+    "end": {
+      "chapter": "heb10",
+      "verse": 39
+    }
+  },
+  {
     "movement": 5,
     "item": 0,
     "title": "What is a Jubilee",

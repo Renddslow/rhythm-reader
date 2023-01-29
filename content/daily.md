@@ -1,0 +1,5 @@
+God wanted to be with his people in the wilderness. That's why he had them set up a tabernacle in their midst. It was a clean-space. A special spot where the Garden of Eden could be recreated, and heaven and earth could overlap. In that overlap, God would commune with his people, and forgive their sins.
+
+Over the course of our readings, we've seen interactions with this space on a seasonal and weekly cycle. But in addition to those rhythms, was a daily rhythm of sacrifice. Every day, the priests would offer up sacrifices for the unintentional sins of the people of God and for their purification.
+
+It's easy to think that this would be daunting, a daily ritual. But consider as you read, amidst the blood and the bleating of animals, God is present with his people. That's what's at the center of Leviticus and what's at the center of the Torah: God _with_ Israel.  
