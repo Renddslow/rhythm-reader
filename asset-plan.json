@@ -314,7 +314,7 @@
   },
   {
     "movement": 1,
-    "item": 3,
+    "item": 1,
     "type": "scripture",
     "book": "Genesis",
     "start": {
@@ -328,7 +328,7 @@
   },
   {
     "movement": 5,
-    "item": 1,
+    "item": 2,
     "type": "scripture",
     "book": "Leviticus",
     "start": {
@@ -342,7 +342,7 @@
   },
   {
     "movement": 5,
-    "item": 2,
+    "item": 3,
     "type": "scripture",
     "book": "Isaiah",
     "start": {
@@ -356,7 +356,7 @@
   },
   {
     "movement": 5,
-    "item": 3,
+    "item": 4,
     "type": "scripture",
     "book": "2 Chronicles",
     "start": {
@@ -370,14 +370,14 @@
   },
   {
     "movement": 5,
-    "item": 4,
+    "item": 5,
     "type": "markdown",
     "src": "content/land-rest.md",
     "title": "Then the Land Had Rest"
   },
   {
     "movement": 5,
-    "item": 5,
+    "item": 7,
     "type": "scripture",
     "book": "Luke",
     "start": {
